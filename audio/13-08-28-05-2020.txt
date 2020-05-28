@@ -1,0 +1,18 @@
+[    0.286473] iommu: Adding device soc:usb_audio_qmi_dev to group 2
+[    0.286815] iommu: Adding device soc:qcom,msm-audio-ion to group 3
+[    0.588077] audio_notifer_reg_service: service SSR_MODEM is in use
+[    3.021285] usbcore: registered new interface driver snd-usb-audio
+[    6.254552] init: Parsing file /vendor/etc/init/android.hardware.audio@2.0-service.rc...
+[    7.931266] msm-pcm-routing soc:qcom,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL16 MUX has no paths
+[    7.958302] init: starting service 'vendor.audio-hal-2-0'...
+[    8.072060] sdm660-asoc-snd soc:sound: wcd_mbhc_start: qcom,msm-mbhc-usbc-audio-supported in dt node is missing or false
+[    8.380323] audio_notifer_reg_service: service PDR_ADSP is in use
+[    8.707455] init: Service 'vendor.audio-hal-2-0' (pid 110) received signal 6
+[   50.106939] CPU: 7 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.107588] CPU: 7 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.108303] CPU: 7 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.226891] CPU: 4 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.490222] CPU: 2 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.491302] CPU: 2 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.492257] CPU: 2 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
+[   50.500679] CPU: 0 PID: 5777 Comm: AudioThread Tainted: G        W       4.4.153.07400-Generic #1
