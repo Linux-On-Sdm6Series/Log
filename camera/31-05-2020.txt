@@ -1,0 +1,47 @@
+[    2.053446] qcom,camera-flash soc:qcom,camera-flash@1: Led torch-light0 renamed to torch-light0_1 due to name collision
+[    2.089617] CAM-SOC msm_camera_get_reg_base:864 err: mem resource vfe_fuse not found
+[    2.089668] CAM-SOC msm_camera_get_res_size:907 err: mem resource vfe_fuse not found
+[    2.096214] CAM-SOC msm_camera_get_reg_base:864 err: mem resource vfe_fuse not found
+[    2.096263] CAM-SOC msm_camera_get_res_size:907 err: mem resource vfe_fuse not found
+[    8.153482] init: Parsing file /vendor/etc/init/android.hardware.camera.provider@2.4-service.rc...
+[   11.850079] init: starting service 'vendor.camera-provider-2-4'...
+[   11.851434] init: couldn't write 125 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[   12.042327] init: Command 'setprop persist.camera.gyro.disable 0' action=boot (/vendor/etc/init/hw/init.qcom.rc:192) took 88ms and succeeded
+[   14.131671] init: Received control message 'interface_start' for 'android.hardware.camera.provider@2.4::ICameraProvider/legacy/0' from pid: 19 (/system/bin/hwservicemanager)
+[   14.131726] init: Could not find service hosting interface android.hardware.camera.provider@2.4::ICameraProvider/legacy/0
+[   14.140551] init: Received control message 'interface_start' for 'android.hardware.camera.provider@2.4::ICameraProvider/legacy/0' from pid: 19 (/system/bin/hwservicemanager)
+[   14.140577] init: Could not find service hosting interface android.hardware.camera.provider@2.4::ICameraProvider/legacy/0
+[   15.322584]  s_ctrl->sensordata->camera_type = 256
+[   15.756839] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   15.775105] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   15.827317] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   15.864562] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   15.899339] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   15.920372] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   15.966063] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   15.984942] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   16.018371] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   16.038234] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   16.068895] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   16.087373] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   16.128363] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   16.151076] Macle android_camera already created
+[   16.151115]  s_ctrl->sensordata->camera_type = 0
+[   16.151119] Macle android_camera already created
+[   16.265184] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   16.301108] msm_camera_cci_i2c_read: line 47 rc = -22
+[   16.352913] msm_camera_cci_i2c_read: line 47 rc = -22
+[   16.414347] msm_camera_cci_i2c_read: line 47 rc = -22
+[   16.483232] msm_camera_cci_i2c_read: line 47 rc = -22
+[   16.543985] msm_camera_cci_i2c_read: line 47 rc = -22
+[   16.603182] msm_camera_cci_i2c_read: line 47 rc = -22
+[   16.664629] Macle android_camera already created
+[   16.664734]  s_ctrl->sensordata->camera_type = 1
+[   16.664752] Macle android_camera already created
+[   16.712866] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   17.722127] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   17.906402] msm_camera_config_single_vreg can't disable cam_vio
+[   18.344804] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   18.376394] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
+[   18.634185] msm_camera_power_up: 1523 usr_idx:3 dts_idx:3
+[   18.703582] msm_camera_power_down:1714:seq_val:3 > num_vreg: 3
